@@ -71,5 +71,5 @@ for p_idx in range(len(data)):
 pred = gen.predict(poses_2d)
 
 # visualize the prediction
-plot17j(pred)
+#plot17j(pred)
 
