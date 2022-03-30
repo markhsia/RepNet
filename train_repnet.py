@@ -15,7 +15,7 @@ import scipy.io as sio
 import tensorflow as tf
 config = tf.compat.v1.ConfigProto()
 config.gpu_options.allow_growth = True
-session = tf.Session(config=config)
+session = tf.compat.v1.Session(config=config)
 from keras.models import Model,load_model, Sequential
 from keras.layers import Input, Dense, Activation, Lambda, Reshape, Flatten, concatenate, LeakyReLU
 import numpy as np
