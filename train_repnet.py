@@ -13,7 +13,7 @@ os.environ["CUDA_VISIBLE_DEVICES"] = "0"
 import sys
 import scipy.io as sio
 import tensorflow as tf
-config = tf.ConfigProto()
+config = tf.compat.v1.ConfigProto()
 config.gpu_options.allow_growth = True
 session = tf.Session(config=config)
 from keras.models import Model,load_model, Sequential
