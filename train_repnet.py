@@ -23,7 +23,8 @@ import numpy.matlib
 import keras.backend as K
 import keras.layers as L
 from keras.layers.merge import _Merge
-from keras.optimizers import Adam
+#from keras.optimizers import Adam
+from keras.optimizers import adam_v2
 import random
 from functools import partial
 from eval_functions import err_3dpe
