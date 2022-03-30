@@ -72,4 +72,4 @@ pred = gen.predict(poses_2d)
 
 # visualize the prediction
 #plot17j(pred)
-
+print(pred)
